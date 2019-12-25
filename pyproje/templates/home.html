@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Anasayfa- {{ block.super }}{% endblock %}
+{% block body %}
+
+
+
+
+<div style="text-align:center;" >
+
+        <div class="container align-items-center" style="height=100%">
+
+            <div class="col-md-12 ">
+                <img class="img-responsive" src="hero_1.jpg" alt="">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                  <h1  data-aos="fade-up" data-aos-delay="100">Profesyonel CV'nizi buradan oluşturun</h1>
+                    <br>
+                  <p data-aos="fade-up" data-aos-delay="300"><a href="{% url 'cv_Bilgi:create' %}" class="btn btn-primary py-3 px-5 btn-pill">CV Yarat</a></p>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <hr><br><br>
+                <footer >
+                  <div >
+                      <h5>İletişim</h5>
+                      <p>
+                          Tel: 05305305353
+                          Email: deneme@hotmail.com.tr
+
+                      </p>
+                  </div>
+                </footer>
+                <br><br>
+                </div>
+
+
+            </div>
+
+          </div>
+
+
+
+
+{% endblock %}
+
+

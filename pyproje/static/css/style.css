@@ -1,0 +1,12 @@
+.border-x{
+  border:2px solid black;
+  box-shadow: 1px 1px 1px rgb(191, 11, 80);
+  border-radius: 5px;
+  
+
+}
+#resim{
+  width:150px;
+  height:125px;
+
+}
